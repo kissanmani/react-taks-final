@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class Users extends Component {
-  // call updateUser (App.js)
   handleUpdate = () => {
     this.props.updateUser(
       this.indexNum,

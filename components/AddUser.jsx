@@ -9,7 +9,6 @@ class AddUser extends Component {
     designation: null,
     isEditing: false
   };
-  //call addUser (App.js)
   handleSubmit = e => {
     e.preventDefault();
     this.props.addUser(this.state);
