@@ -116,3 +116,37 @@ tr:nth-child(even) {
     z-index: 999;
     height: 100%;
 }
+
+
+/* modal custom css */
+ .btn-close {
+    background-color: #39393c;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cusrsor: pointer;
+}
+.element-title {
+    font-size: 20px;
+}
+.btn-default {
+    background-color: #525151;
+    margin: 10px;
+    text-align: center;
+}
+.block-model {
+    min-height: 80px;
+}
+.modalBtnCover {
+    width: 170px;
+    margin: 0 auto;
+    
+}
+.element-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}

@@ -124,14 +124,14 @@ class App extends Component {
           style={customStyles}
           overlayClassName="Overlay"
         >
-          <button className="modal-close" onClick={e => this.toggleModal(e)}>
-            <span>X</span>
-          </button>
+          
           {this.state.openModal && (
             <div className= "block-model">
               <h1 className="element-title">Are you sure</h1>
-              <button onClick={this.pressDelete}>Ok </button>
-              <button onClick={this.toggleModal}>Cancel</button>
+              <div className="modalBtnCover">
+              <button onClick={this.pressDelete} className="btn btn-default">Ok </button>
+              <button onClick={this.toggleModal} className="btn btn-default">Cancel</button>
+              </div>
             </div>
           )}
         </Modal>
